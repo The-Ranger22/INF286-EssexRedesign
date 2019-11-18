@@ -1,0 +1,100 @@
+/* div{
+          border: solid black 1px;
+        }  */
+body,
+html {
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #8e8e8e;
+  min-height: 100%;
+  background: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("http://cdn2.editmysite.com/images/editor/theme-background/stock/Graph.jpg");
+  /* Half height */
+  height: 18vh;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wsite-logo {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#wsite-title {
+  font-family: "alex brush", cursive !important;
+  font-style: italic;
+  font-weight: 700 !important;
+  color: #76b3b8 !important;
+  text-transform: none !important;
+  letter-spacing: 3px !important;
+}
+
+.navbar-nav {
+  float: none;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+
+.pop-up {
+  display: none;
+}
+
+#drop:hover .pop-up {
+  background-color: white;
+  position: absolute;
+  display: block;
+  padding: 10px;
+}
+
+.pop-up:hover {
+  display: block;
+}
+
+.fa {
+  font-size: x-large;
+}
+.navbar-toggler-detail {
+  border: 0;
+}
+.pitch {
+  font-size: xx-large;
+  color: rgb(98, 98, 98);
+  font-family: "Lora", serif;
+}
+.mid {
+  font-size: xx-large;
+}
+.huge {
+  font-size: 150%;
+}
+.descrip {
+  font-size: 18px !important;
+  line-height: 34px !important;
+}
+#playfair {
+  font-family: "Playfair Display", serif;
+}
+.black {
+  color: black;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.gentium {
+  font-family: "Gentium Basic", serif;
+}

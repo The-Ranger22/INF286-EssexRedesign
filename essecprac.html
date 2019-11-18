@@ -29,110 +29,13 @@
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Hello, world!</title>
-    <style>
-         /* div{
-          border: solid black 1px;
-        }  */
-        body, html {
-            height: 100%;
-            font-family: 'Raleway', sans-serif;
-            font-size: 15px;
-            color: #8e8e8e;
-            min-height: 100%;
-            background: white;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-        }
-
-        .bg {
-            /* The image used */
-            background-image: url("https://pbs.twimg.com/profile_images/949787136030539782/LnRrYf6e.jpg");
-            /* Half height */
-            height: 18vh;
-            /* Center and scale the image nicely */
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .wsite-logo {
-            display: inline-block;
-            vertical-align: top;
-        }
-
-        #wsite-title {
-            font-family: "alex brush", cursive !important;
-            font-style: italic;
-            font-weight: 700 !important;
-            color: #76b3b8 !important;
-            text-transform: none !important;
-            letter-spacing: 3px !important;
-        }
-
-        .navbar-nav {
-            float: none;
-            margin: auto;
-            display: block;
-            text-align: center;
-        }
-
-        .navbar-nav > li {
-            display: inline-block;
-            float: none;
-        }
-
-        .pop-up {
-            display: none;
-        }
-
-        #drop:hover .pop-up {
-            background-color: white;
-            position: absolute;
-            display: block;
-            padding: 10px;
-        }
-
-        .pop-up:hover {
-            display: block;
-        }
-
-        .fa {
-            font-size: x-large;
-        }
-        .navbar-toggler-detail{
-            border: 0;
-        }
-        .pitch {
-        font-size: xx-large;
-        color: rgb(98, 98, 98);
-        font-family: "Lora", serif;
-      }
-      .mid {
-        font-size: xx-large;
-      }
-      .huge {
-        font-size: 150%;
-      }
-      .descrip {
-        font-size: 18px !important;
-        line-height: 34px !important;
-      }
-      #playfair {
-        font-family: "Playfair Display", serif;
-      }
-      .black {
-        color: black;
-      }
-      .montserrat{
-        font-family: 'Montserrat', sans-serif;
-      }
-    </style>
 </head>
 <body>
 <div class="container-fluid text-center">
-    <div class="row">
-        <div class="col">
+    <div class="row mt-lg-0 mt-3">
+        <div class="col-3">
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
                 <button class="navbar-toggler navbar-toggler-detail btn btn-light" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -140,48 +43,48 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </nav>
+        </div>
+        <div class="col-lg-12 pl-lg-0 text-lg-center col-9 text-left pl-5">
             <h1><span class="wsite-logo"><a><span id="wsite-title">The Essex Studios</span></a></span></h1>
         </div>
     </div>
     <div class="row">
-        <div class="col pt-3 pb-3">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
-
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto montserrat">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <div id="drop">
-                                <a class="nav-link" href="#">
-                                    ARTWALKS
-                                </a>
-                                <div class="pop-up">
-                                    <a class="nav-link" href="#">ArtWalk Registration</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">ARTISTS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PRESS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="login-button">LOGIN</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </nav>
+        <div class="col">
+          <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto montserrat">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#"
+                    >HOME <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <div id="drop">
+                    <a class="nav-link" href="#">
+                      ARTWALKS
+                    </a>
+                    <div class="pop-up">
+                      <a class="nav-link" href="#">ArtWalk Registration</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ARTISTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PRESS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="login-button">LOGIN</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-    </div>
-</div>
+      </div>
 <div class="bg"></div>
 <div class="container text-dark">
   <div class="row">
@@ -220,7 +123,7 @@
             2511 Essex Place, #114<br/>
             Cincinnati, Ohio 45206<br/>
             Phone: 513-476-2170<br/>
-            Email:<strong><a href="mailto:EssexStudio@aol.com">&nbsp;EssexStudio@aol.com</a></strong>
+            Email:<strong><a class="text-break" href="mailto:EssexStudio@aol.com">&nbsp;EssexStudio@aol.com</a></strong>
         </div>
         <div class="col-md-1"></div>
     </div>
